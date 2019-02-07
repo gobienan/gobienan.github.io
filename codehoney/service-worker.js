@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.a2e915cfc9f4e867b091f15c7688663a.js"
+  "precache-manifest.eea3410f1fc2cb7cd6c3ca2ff10c785c.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "codehoney"});
