@@ -206,29 +206,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-	name: 'SocialContact',
-	props: {
-		ButtonText: {
-			type: String,
-			default: function _default() {
-				return "";
-			}
-		}
-	},
-	components: {},
-	data: function data() {
-		return {};
-	},
-	created: function created() {},
+  name: "SocialContact",
+  props: {
+    ButtonText: {
+      type: String,
+      default: function _default() {
+        return "";
+      }
+    }
+  },
+  components: {},
+  data: function data() {
+    return {};
+  },
+  created: function created() {},
 
-	watch: {},
-	computed: {},
-	methods: {},
+  watch: {},
+  computed: {},
+  methods: {},
 
-	mounted: function mounted() {}
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -806,4 +805,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[11]);
-//# sourceMappingURL=app.0c8c0734ed22716585c0.js.map
+//# sourceMappingURL=app.fd00604880154296a6e7.js.map
