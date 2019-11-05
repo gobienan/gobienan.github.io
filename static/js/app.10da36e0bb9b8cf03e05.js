@@ -271,6 +271,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -731,8 +735,30 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("Codehoney ")])])])], 1)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "Logo"
-  }, [_c('img', {
+    staticClass: "Logo",
+    staticStyle: {
+      "z-index": "2"
+    }
+  }, [_c('form', {
+    staticStyle: {
+      "z-index": "99"
+    },
+    attrs: {
+      "action": "https://workersandbox.mturk.com/mturk/externalSubmit"
+    }
+  }, [_c('button', {
+    staticStyle: {
+      "position": "absolute",
+      "top": "0",
+      "left": "0",
+      "height": "100%",
+      "width": "100%",
+      "opacity": "0"
+    },
+    attrs: {
+      "type": "submit"
+    }
+  })]), _vm._v(" "), _c('img', {
     attrs: {
       "src": "/../../static/logo.svg",
       "alt": "Logo "
@@ -804,4 +830,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[11]);
-//# sourceMappingURL=app.af6861792ea0be9d1586.js.map
+//# sourceMappingURL=app.10da36e0bb9b8cf03e05.js.map
