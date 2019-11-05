@@ -717,7 +717,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       'isBlack': _vm.codehoney
     },
     attrs: {
-      "href": "https://www.gobienan.com/codehoney ",
+      "href": "https://www.codehoney.app",
       "target": "_blank "
     },
     on: {
@@ -804,4 +804,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[11]);
-//# sourceMappingURL=app.a4f89c6748bf9277ca8f.js.map
+//# sourceMappingURL=app.af6861792ea0be9d1586.js.map
