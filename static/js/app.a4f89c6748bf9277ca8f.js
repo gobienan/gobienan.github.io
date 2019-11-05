@@ -123,23 +123,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'BgLines',
+  name: "BgLines",
   props: {
-    clearcanvas: {
+    ada: {
       type: Boolean,
       default: function _default() {
         return false;
@@ -270,11 +258,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'About',
+  name: "About",
   props: {
     ButtonText: {
       type: String,
@@ -288,7 +289,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   },
   data: function data() {
     return {
-      clearcanvas: false,
+      ada: false,
       taxifusion: false,
       lumencase: false,
       codehoney: false
@@ -301,14 +302,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   methods: {
     changeBg: function changeBg(cases) {
       switch (cases) {
-        case "clearcanvas":
-          this.clearcanvas = true;
+        case "ada":
+          this.ada = true;
           break;
         default:
-
       }
     }
-
   },
 
   mounted: function mounted() {}
@@ -586,7 +585,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('div', {
     staticClass: "Bg-Lines",
     class: {
-      'hasColor-clearcanvas': _vm.clearcanvas, 'hasColor-taxifusion': _vm.taxifusion, 'hasColor-lumencase': _vm.lumencase, 'hasColor-slected': _vm.slected, 'hasColor-codehoney': _vm.codehoney
+      'hasColor-ada': _vm.ada, 'hasColor-taxifusion': _vm.taxifusion, 'hasColor-lumencase': _vm.lumencase, 'hasColor-slected': _vm.slected, 'hasColor-codehoney': _vm.codehoney
     }
   }, [_c('div', {
     staticClass: "Bg-Line Bg-Line-1"
@@ -672,31 +671,31 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "About"
   }, [_c('BgLines', {
     attrs: {
-      "clearcanvas": _vm.clearcanvas,
+      "ada": _vm.ada,
       "taxifusion": _vm.taxifusion,
       "codehoney": _vm.codehoney
     }
   }), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "Section-Wrapper"
   }, [_c('span', [_vm._v("Introduction")]), _vm._v(" "), _c('h1', [_c('span', [_vm._v("Gobie ")]), _c('span', [_vm._v("Nanthakumar ")]), _c('span', [_vm._v("— ")]), _c('span', [_vm._v("webdeveloper ")]), _c('span', [_vm._v("from ")]), _c('span', [_vm._v("Germany, ")]), _c('span', [_vm._v("currently ")]), _c('span', [_vm._v("working ")]), _c('span', [_vm._v("for ")]), _c('a', {
-    staticClass: "ClearCanvas",
+    staticClass: "Ada",
     class: {
-      'isBlack': _vm.clearcanvas
+      'isBlack': _vm.ada
     },
     attrs: {
-      "href": "http://www.clear-canvas.com/",
+      "href": "http://www.ada.com/",
       "target": "_blank"
     },
     on: {
       "mouseover": function($event) {
-        _vm.clearcanvas = !_vm.clearcanvas
+        _vm.ada = !_vm.ada
       },
       "mouseleave": function($event) {
-        _vm.clearcanvas = !_vm.clearcanvas
+        _vm.ada = !_vm.ada
       }
     }
-  }, [_vm._v("ClearCanvas ")]), _c('span', [_vm._v("in ")]), _c('span', [_vm._v("lovely ")]), _c('span', [_vm._v("Berlin")]), _c('span', [_vm._v(". ")])]), _vm._v(" "), _c('h2', [_c('span', [_vm._v("Projects ")]), _c('span', [_vm._v("I ")]), _c('span', [_vm._v("am ")]), _c('span', [_vm._v("working ")]), _c('span', [_vm._v("on")]), _c('span', [_vm._v(": ")]), _vm._v(" "), _c('a', {
-    staticClass: "Taxifusion ",
+  }, [_vm._v("Ada Health ")]), _c('span', [_vm._v("in ")]), _c('span', [_vm._v("lovely ")]), _c('span', [_vm._v("Berlin")]), _c('span', [_vm._v(". ")])]), _vm._v(" "), _c('h2', [_c('span', [_vm._v("Projects ")]), _c('span', [_vm._v("I ")]), _c('span', [_vm._v("am ")]), _c('span', [_vm._v("working ")]), _c('span', [_vm._v("on")]), _c('span', [_vm._v(": ")]), _vm._v(" "), _c('a', {
+    staticClass: "Taxifusion",
     class: {
       'isBlack': _vm.taxifusion
     },
@@ -732,7 +731,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_vm._v("Codehoney ")])])])], 1)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "Logo "
+    staticClass: "Logo"
   }, [_c('img', {
     attrs: {
       "src": "/../../static/logo.svg",
@@ -805,4 +804,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[11]);
-//# sourceMappingURL=app.fd00604880154296a6e7.js.map
+//# sourceMappingURL=app.a4f89c6748bf9277ca8f.js.map
