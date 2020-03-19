@@ -176,7 +176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         return false;
       }
     },
-    codehoney: {
+    resoume: {
       type: Boolean,
       default: function _default() {
         return false;
@@ -296,6 +296,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 
 
@@ -317,7 +320,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       ada: false,
       taxifusion: false,
       lumencase: false,
-      codehoney: false
+      resoume: false
     };
   },
   created: function created() {},
@@ -609,7 +612,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   return _c('div', {
     staticClass: "Bg-Lines",
     class: {
-      'hasColor-ada': _vm.ada, 'hasColor-taxifusion': _vm.taxifusion, 'hasColor-lumencase': _vm.lumencase, 'hasColor-slected': _vm.slected, 'hasColor-codehoney': _vm.codehoney
+      'hasColor-ada': _vm.ada, 'hasColor-taxifusion': _vm.taxifusion, 'hasColor-lumencase': _vm.lumencase, 'hasColor-slected': _vm.slected, 'hasColor-resoume': _vm.resoume
     }
   }, [_c('div', {
     staticClass: "Bg-Line Bg-Line-1"
@@ -736,7 +739,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "ada": _vm.ada,
       "taxifusion": _vm.taxifusion,
-      "codehoney": _vm.codehoney
+      "resoume": _vm.resoume
     }
   }), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "Section-Wrapper"
@@ -758,6 +761,23 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       }
     }
   }, [_vm._v("Ada Health ")]), _c('span', [_vm._v("in ")]), _c('span', [_vm._v("lovely ")]), _c('span', [_vm._v("Berlin")]), _c('span', [_vm._v(". ")])]), _vm._v(" "), _c('h2', [_c('span', [_vm._v("Projects ")]), _c('span', [_vm._v("I ")]), _c('span', [_vm._v("am ")]), _c('span', [_vm._v("working ")]), _c('span', [_vm._v("on")]), _c('span', [_vm._v(": ")]), _vm._v(" "), _c('a', {
+    staticClass: "Resoume",
+    class: {
+      'isBlack': _vm.resoume
+    },
+    attrs: {
+      "href": "https://resoume.com",
+      "target": "_blank "
+    },
+    on: {
+      "mouseover": function($event) {
+        _vm.resoume = !_vm.resoume
+      },
+      "mouseleave": function($event) {
+        _vm.resoume = !_vm.resoume
+      }
+    }
+  }, [_vm._v("\n        Resoume ")]), _vm._v(" "), _c('span', [_vm._v("and ")]), _vm._v(" "), _c('a', {
     staticClass: "Taxifusion",
     class: {
       'isBlack': _vm.taxifusion
@@ -774,24 +794,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.taxifusion = !_vm.taxifusion
       }
     }
-  }, [_vm._v("TaxiFusion ")]), _vm._v(" "), _c('span', [_vm._v("and ")]), _vm._v(" "), _c('a', {
-    staticClass: "Codehoney",
-    class: {
-      'isBlack': _vm.codehoney
-    },
-    attrs: {
-      "href": "https://www.codehoney.app",
-      "target": "_blank "
-    },
-    on: {
-      "mouseover": function($event) {
-        _vm.codehoney = !_vm.codehoney
-      },
-      "mouseleave": function($event) {
-        _vm.codehoney = !_vm.codehoney
-      }
-    }
-  }, [_vm._v("Codehoney ")])])])], 1)
+  }, [_vm._v("\n          TaxiFusion \n      ")])])])], 1)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "Logo",
@@ -870,4 +873,4 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 /***/ })
 ],[11]);
-//# sourceMappingURL=app.897ed05c77828dca837f.js.map
+//# sourceMappingURL=app.566cc1c6a97e0c21d54e.js.map
